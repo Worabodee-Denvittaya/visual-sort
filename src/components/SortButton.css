@@ -1,0 +1,28 @@
+#sort-button {
+  margin-top: 50px;
+  background-color: #2783ca;
+  border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  padding: 16px 31px;
+}
+
+#sort-button[disabled] {
+  pointer-events: none;
+  margin-top: 50px;
+  background-color: #2783ca;
+  border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  padding: 16px 31px;
+}
+
+#sort-button :hover {
+  background-color: #4caf50 !important;
+}
+
+.active {
+  background-color: #4caf50;
+}

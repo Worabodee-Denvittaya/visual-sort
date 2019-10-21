@@ -1,0 +1,27 @@
+.dropdown-content {
+  margin-top: 15px;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0);
+  min-width: 160px;
+  z-index: 1;
+}
+
+div[disabled] {
+  pointer-events: none;
+}
+
+input[type="text"] {
+  width: 100%;
+  border: 2px solid #2783ca;
+  border-radius: 4px;
+  margin: 5px 5px;
+  outline: none;
+  padding: 15px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
