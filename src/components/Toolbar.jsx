@@ -39,7 +39,6 @@ class Toolbar extends Component {
             type="range"
             min="1"
             max="10"
-            value="5.5"
             disabled={this.props.sorting}
             onChange={this.handleSpeedChange}
           />
